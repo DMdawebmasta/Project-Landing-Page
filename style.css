@@ -5,11 +5,13 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+/*header*/
 .container-1 {
     display: flex;
     padding: 0 100px 0;
     background-color: #1f2937 ;
-    
+    flex-direction: column;  
+    height: 400px;      /*sector-1*/
 }
 .navbar {
     display: flex;
@@ -17,15 +19,21 @@ body {
     align-items: center;
     flex: 1;
     padding: 12px 0 12px;
+    max-height: 28px;
 }
 .ssilki {
     display: flex;
+    gap: 20px;
+}
+.hls, .text-2 {
+
+    font-size: 18px;     /*sector 1 .text-2*/
+    color: #e5e7eb;   /*sector 1 .text-2*/
+
 }
 .hls {
     text-decoration: none;
-    font-size: 18px;
-    color: #e5e7eb;
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }
 a:hover {
     color: yellowgreen;
@@ -33,4 +41,41 @@ a:hover {
 .header {
     font-size: 24px;
     color: #f9faf8;
+}
+
+/*sector 1*/
+
+.text-1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.placeholder-1 {
+    display: flex;
+    height: 218px;
+    width: 48%;
+    background-color: gray;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+}
+.container-1-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto 0 auto;
+}
+.container-1-2 {
+    width: 48%;
+}
+.button-signup-1 {
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: 0;
+    padding: 6px 16px 6px;
+    margin-top: 8px;
+    color: white;
+    font-weight: 700;
 }
