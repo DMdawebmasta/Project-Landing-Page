@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 @font-face {
     font-family: 'Roboto', sans-serif;
     src: url('KFOmCnqEu92Fr1Mu4mxK.woff2');
@@ -8,7 +13,7 @@ body {
 /*header*/
 .container-1 {
     display: flex;
-    padding: 0 100px 0;
+    padding: 0 300px 0;
     background-color: #1f2937 ;
     flex-direction: column;  
     height: 400px;      /*sector-1*/
@@ -18,8 +23,8 @@ body {
     justify-content: space-between;
     align-items: center;
     flex: 1;
-    padding: 12px 0 12px;
-    max-height: 28px;
+    padding: 10px 0 0px;
+    max-height: 50px;
 }
 .ssilki {
     display: flex;
@@ -55,20 +60,29 @@ a:hover {
     display: flex;
     height: 218px;
     width: 48%;
-    background-color: gray;
+    /* Sbackground-color: gray; */
     color: white;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
+    flex: 0 0 0;
+
 
 }
 .container-1-1 {
     display: flex;
+
     justify-content: space-between;
     align-items: center;
     margin: auto 0 auto;
+    height: 250px;
 }
 .container-1-2 {
+    display: flex;
+    flex-direction: column;
     width: 48%;
+    height: 210px;
+    flex-shrink: 0;
+    justify-content: space-between;
 }
 .button-signup-1 {
     background-color: #3882f6;
@@ -78,4 +92,45 @@ a:hover {
     margin-top: 8px;
     color: white;
     font-weight: 700;
+    align-self: flex-start;
+}
+.url {
+    color: yellow;
+}
+/* Sector-2 ****************** */
+h3 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin-top: 30px;
+}
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    /* justify-content: center; */
+}
+.ph {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.bph {
+    width: 140px;
+    height: 140px;
+    border: 5px solid #3882f6;
+    border-radius: 16px;
+    margin-bottom: 10px;
+}
+.photki {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: flex-start;
+    margin: 30px;
+
 }
