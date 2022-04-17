@@ -134,3 +134,29 @@ h3 {
     margin: 30px;
 
 }
+
+/* Sector-3 *********************** */
+.container-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    height: 300px;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    quotes: none;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+    margin: 0 25% 0 25%;
+    align-self: center;
+    justify-self: center;
+}
+.author {
+    font-weight: bold;
+    align-self: center;
+    padding-left: 500px;
+}
